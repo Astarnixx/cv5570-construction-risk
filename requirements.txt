@@ -1,0 +1,13 @@
+ultralytics>=8.4.0
+gradio
+ftfy
+scikit-learn
+joblib
+pandas
+numpy
+opencv-python
+matplotlib
+pyyaml
+git+https://github.com/ultralytics/CLIP.git
+git+https://github.com/apple/ml-depth-pro.git
+git+https://github.com/cvg/GeoCalib.git

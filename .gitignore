@@ -1,0 +1,20 @@
+# Large datasets (download separately, see README)
+data/*
+!data/.gitkeep
+*.zip
+
+# Regenerable per-image outputs (produced by NB2 / NB3 / NB6 / NB4)
+**/depth/*.npz
+**/depth_vis/
+**/pose/
+**/pose_vis/
+demo/results/
+runs/**/weights/
+
+# Python / Jupyter / OS
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+*.env

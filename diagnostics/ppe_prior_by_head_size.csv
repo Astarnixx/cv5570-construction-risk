@@ -1,0 +1,11 @@
+item,head_px,n_labelled,share_missing,recall_when_wearing,n_no_evidence,prior_missing,precision_of_NO_box
+helmet,0-10,0,0.0,,0,0.5,
+helmet,10-16,0,0.0,,0,0.5,
+helmet,16-24,0,0.0,,0,0.5,
+helmet,24-36,0,0.0,,0,0.5,
+helmet,36-inf,0,0.0,,0,0.5,
+vest,0-10,0,0.0,,0,0.5,
+vest,10-16,0,0.0,,0,0.5,
+vest,16-24,0,0.0,,0,0.5,
+vest,24-36,0,0.0,,0,0.5,
+vest,36-inf,0,0.0,,0,0.5,

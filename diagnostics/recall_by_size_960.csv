@@ -1,0 +1,5 @@
+cls,size,n_gt,recall_at_threshold,recall_at_0_05
+Hardhat,<24 px,97,0.0,0.0
+Hardhat,24-48 px,115,0.009,0.026
+Hardhat,48-96 px,124,0.008,0.008
+Hardhat,>=96 px,171,0.0,0.0

@@ -1,0 +1,46 @@
+{
+ "det_imgsz": 1280,
+ "machine_thr": 0.05,
+ "person_thr": 0.25,
+ "world": {
+  "use": true,
+  "thr": 0.3,
+  "model": "yolov8s-worldv2.pt",
+  "prompts": [
+   "concrete pump truck",
+   "crane",
+   "excavator",
+   "dump truck",
+   "loader",
+   "bulldozer",
+   "truck",
+   "construction machine"
+  ]
+ },
+ "head_bins": [
+  0,
+  10,
+  16,
+  24,
+  36,
+  1000000000.0
+ ],
+ "prior_helmet": [
+  0.5,
+  0.6,
+  0.7,
+  0.7,
+  0.7
+ ],
+ "prior_vest": [
+  0.5,
+  0.6,
+  0.7,
+  0.7,
+  0.7
+ ],
+ "unverifiable_below_px": 10.0,
+ "band_edges": null,
+ "created": "2026-11-01",
+ "source": "manual settings from NB7 config cell"
+}
